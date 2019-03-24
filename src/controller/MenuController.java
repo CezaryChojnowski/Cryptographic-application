@@ -1,10 +1,8 @@
 package controller;
 
-import com.sun.deploy.util.FXLoader;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.layout.Pane;
-import main.Main;
 
 import java.io.IOException;
 
@@ -48,6 +46,20 @@ public class MenuController {
         }
         MatrixChange2bController MatrixChange2bController = loader.getController();
         MatrixChange2bController.setMainController(MainController);
+        MainController.setScreen(pane);
+    }
+
+    @FXML
+    public void onCeasarCipher(){
+        FXMLLoader loader = new FXMLLoader(this.getClass().getResource("/resources/fxml/CaesarCipher.fxml"));
+        Pane pane = null;
+        try{
+            pane = loader.load();
+        } catch (IOException e){
+            e.printStackTrace();
+        }
+        CaesarCipherController CaesarCipherController = loader.getController();
+        CaesarCipherController.setMainController(MainController);
         MainController.setScreen(pane);
     }
 
