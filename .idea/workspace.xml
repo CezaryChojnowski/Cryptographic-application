@@ -2,15 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9ca072e5-fcf4-4e48-8e8a-182929906892" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/controller/CaesarCipherController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/fxml/CaesarCipher.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/controller/RailFanceController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/fxml/RailFanceScreen.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CryptographicApp/controller/CaesarCipherController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CryptographicApp/controller/CaesarCipherController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/CryptographicApp/controller/MatrixChange2bController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CryptographicApp/controller/MatrixChange2bController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/CryptographicApp/controller/MenuController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CryptographicApp/controller/MenuController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CryptographicApp/resources/fxml/MenuScreen.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CryptographicApp/resources/fxml/MenuScreen.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CryptographicApp/resources/fxml/CaesarCipher.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CryptographicApp/resources/fxml/CaesarCipher.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controller/CaesarCipherController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/CaesarCipherController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/controller/MatrixChange2bController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/MatrixChange2bController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/controller/MenuController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/MenuController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resources/fxml/MenuScreen.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/fxml/MenuScreen.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/fxml/CaesarCipher.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/fxml/CaesarCipher.fxml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,33 +23,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/controller/MatrixChange2bController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="227">
-              <caret line="155" selection-start-line="155" selection-end-line="156" selection-end-column="34" />
+            <state relative-caret-position="-3155">
+              <caret line="27" column="21" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1730#1731#0" expanded="true" />
-                <element signature="e#1782#1783#0" expanded="true" />
+                <element signature="method#sortCharKey#0;class#MatrixChange2bController#0" />
+                <element signature="method#abc#0;class#MatrixChange2bController#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/controller/CaesarCipherController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="149">
-              <caret line="94" column="64" lean-forward="true" selection-start-line="94" selection-start-column="64" selection-end-line="94" selection-end-column="64" />
+            <state relative-caret-position="120">
+              <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="method#encryptPlainText#0;class#CaesarCipherController#0" />
-                <element signature="e#2026#3053#1" />
-                <element signature="e#3917#3918#0" expanded="true" />
-                <element signature="e#3964#3965#0" expanded="true" />
-                <element signature="e#2247#2295#1" />
-                <element signature="e#3801#3802#0" expanded="true" />
+                <element signature="method#onCryptogram#0;class#CaesarCipherController#0" />
+                <element signature="e#4371#4372#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -56,7 +54,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/controller/MainController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="429">
+            <state relative-caret-position="33">
               <caret line="33" selection-start-line="33" selection-end-line="33" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -85,6 +83,10 @@
       <find>checkPlanTextLength</find>
       <find>sYSTEM.</find>
       <find>math</find>
+      <find>exception</find>
+      <find>InvocationTargetException</find>
+      <find>sYSTEM</find>
+      <find>%charkey</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -105,18 +107,20 @@
         <option value="$PROJECT_DIR$/src/controller/MainController.java" />
         <option value="$PROJECT_DIR$/src/controller/InformationController.java" />
         <option value="$PROJECT_DIR$/src/resources/fxml/MatrixChange2bScreen.fxml" />
-        <option value="$PROJECT_DIR$/src/controller/MatrixChange2bController.java" />
         <option value="$PROJECT_DIR$/src/controller/CaesarCipher.java" />
         <option value="$PROJECT_DIR$/src/resources/fxml/MenuScreen.fxml" />
-        <option value="$PROJECT_DIR$/src/controller/MenuController.java" />
         <option value="$PROJECT_DIR$/src/controller/CaesarCipherController.java" />
+        <option value="$PROJECT_DIR$/src/resources/fxml/RailFenceScreen.fxml" />
+        <option value="$PROJECT_DIR$/src/controller/RailFanceController.java" />
+        <option value="$PROJECT_DIR$/src/controller/MenuController.java" />
+        <option value="$PROJECT_DIR$/src/controller/MatrixChange2bController.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="946" />
-    <option name="width" value="984" />
-    <option name="height" value="1021" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="1272" />
+    <option name="width" value="1297" />
+    <option name="height" value="1038" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -124,7 +128,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -159,19 +162,21 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553441772651" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553637209777" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/Cryptographic-application-master (1)/Cryptographic-application-master" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.splitter.proportion" value="0.29127234" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -225,7 +230,8 @@
       <workItem from="1553033278719" duration="6913000" />
       <workItem from="1553074537842" duration="674000" />
       <workItem from="1553272891035" duration="43000" />
-      <workItem from="1553427341239" duration="10106000" />
+      <workItem from="1553427341239" duration="12629000" />
+      <workItem from="1553461363309" duration="28198000" />
     </task>
     <task id="LOCAL-00001" summary="Szyfrowanko gotowe">
       <created>1553031733126</created>
@@ -238,7 +244,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="93314000" />
+    <option name="totallyTimeSpent" value="124035000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -250,10 +256,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1111" height="591" extended-state="6" />
+    <frame x="1018" y="0" width="1037" height="830" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.6554455" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2579001" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -262,17 +268,17 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32905984" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49949032" weight="0.20302376" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.5028169" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49949032" visible="true" weight="0.41452992" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.5014245" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32905984" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32905984" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32829374" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49949032" weight="0.32905984" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49949032" weight="0.064794816" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5005097" side_tool="true" weight="0.4059829" />
-      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.49949032" weight="0.32905984" />
+      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.49949032" weight="0.32763532" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -380,12 +386,12 @@
     <entry file="file://$PROJECT_DIR$/src/resources/fxml/StackPanelWindow.fxml" />
     <entry file="file://$PROJECT_DIR$/src/main/StackPanelWindow.fxml" />
     <entry file="file://$PROJECT_DIR$/src/resources/fxml/InformationScreen.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
           <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
         </state>
       </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk/src.zip!/java/lang/Thread.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -407,25 +413,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="29826">
           <caret line="1777" column="9" selection-start-line="1777" selection-start-column="9" selection-end-line="1777" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk/javafx-src.zip!/javafx/scene/control/TextInputControl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4824">
-          <caret line="347" column="35" selection-start-line="347" selection-start-column="35" selection-end-line="347" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk/javafx-src.zip!/javafx/scene/control/TextArea.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4428">
-          <caret line="299" selection-start-line="299" selection-end-line="299" />
-          <folding>
-            <element signature="e#11226#11227#0" expanded="true" />
-            <element signature="e#11270#11271#0" expanded="true" />
-            <element signature="e#11358#11359#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -470,31 +457,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/controller/MenuController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="62" selection-start-line="62" selection-end-line="62" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/resources/fxml/MenuScreen.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
         </state>
       </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/resources/fxml/MainScreen.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="18">
           <caret line="1" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/Main.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -507,24 +484,16 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/resources/fxml/MatrixChange2bScreen.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
           <caret line="7" column="74" selection-start-line="7" selection-start-column="74" selection-end-line="7" selection-end-column="74" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/resources/fxml/CaesarCipher.fxml">
       <provider editor-type-id="JavaFX-Scene-Builder" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/controller/MainController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="429">
+        <state relative-caret-position="33">
           <caret line="33" selection-start-line="33" selection-end-line="33" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -534,30 +503,79 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/controller/MatrixChange2bController.java">
+    <entry file="file://$PROJECT_DIR$/src/resources/fxml/CaesarCipher.fxml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="155" selection-start-line="155" selection-end-line="156" selection-end-column="34" />
+        <state relative-caret-position="210">
+          <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk/javafx-src.zip!/javafx/scene/control/TextArea.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="903">
+          <caret line="149" column="31" selection-start-line="149" selection-start-column="31" selection-end-line="149" selection-end-column="31" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1730#1731#0" expanded="true" />
-            <element signature="e#1782#1783#0" expanded="true" />
+            <element signature="e#11226#11227#0" expanded="true" />
+            <element signature="e#11270#11271#0" expanded="true" />
+            <element signature="e#11311#11312#0" expanded="true" />
+            <element signature="e#11358#11359#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/controller/CaesarCipherController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="94" column="64" lean-forward="true" selection-start-line="94" selection-start-column="64" selection-end-line="94" selection-end-column="64" />
+        <state relative-caret-position="120">
+          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#encryptPlainText#0;class#CaesarCipherController#0" />
-            <element signature="e#2026#3053#1" />
-            <element signature="e#3917#3918#0" expanded="true" />
-            <element signature="e#3964#3965#0" expanded="true" />
-            <element signature="e#2247#2295#1" />
-            <element signature="e#3801#3802#0" expanded="true" />
+            <element signature="method#onCryptogram#0;class#CaesarCipherController#0" />
+            <element signature="e#4371#4372#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/controller/RailFanceController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="781">
+          <caret line="138" column="17" lean-forward="true" selection-start-line="138" selection-start-column="17" selection-end-line="138" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/controller/MenuController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="34" column="14" selection-start-line="34" selection-start-column="14" selection-end-line="34" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resources/fxml/RailFanceScreen.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="316">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk/javafx-src.zip!/javafx/scene/control/TextInputControl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="101">
+          <caret line="347" column="35" selection-start-line="347" selection-start-column="35" selection-end-line="347" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/controller/MatrixChange2bController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3155">
+          <caret line="27" column="21" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#sortCharKey#0;class#MatrixChange2bController#0" />
+            <element signature="method#abc#0;class#MatrixChange2bController#0" />
           </folding>
         </state>
       </provider>
