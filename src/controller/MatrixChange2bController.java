@@ -185,7 +185,6 @@ public class MatrixChange2bController {
             else{
                 indexIncompleteColumn=indexIncompleteColumn+1;
             }
-
         }
         for (int i = 0; i < charKeyLength; i++) {
             for (int j = 2; j < fullColumns; j++) {

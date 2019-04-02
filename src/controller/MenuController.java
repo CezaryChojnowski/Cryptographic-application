@@ -28,6 +28,17 @@ public class MenuController {
     @FXML
     public void onRailFence(){
 
+        FXMLLoader loader = new FXMLLoader(this.getClass().getResource("/resources/fxml/RailFanceScreen.fxml"));
+        Pane pane = null;
+        try{
+            pane = loader.load();
+        } catch (IOException e){
+            e.printStackTrace();
+        }
+        RailFanceController RailFanceController = loader.getController();
+        RailFanceController.setMainController(MainController);
+        MainController.setScreen(pane);
+
     }
 
     @FXML
